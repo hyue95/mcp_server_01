@@ -64,9 +64,9 @@ npm start
 
 ```json
 "mcpServers": {
-  {
+  "time-server-local": {
     "type": "sse",
-    "url": "https://your-server-url/mcp"
+    "url": "http://localhost:3000/mcp"
   }
 }
 ```
