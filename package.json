@@ -1,0 +1,31 @@
+{
+  "name": "mcp-time-server",
+  "version": "1.0.0",
+  "description": "MCP 时间服务器",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "test-client": "node test-client.js"
+  },
+  "keywords": [
+    "mcp",
+    "time-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.4",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2"
+  }
+}
